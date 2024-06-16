@@ -1,0 +1,52 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    text-align: center; 
+    width: 400px;
+    padding: 45px;
+    background-color: rgb(87, 85, 85);
+    margin: 50px 0px 50px 31%;
+}
+
+#task{
+    width: 270px;
+    margin-top: 40px;
+    padding: 10px;
+    border: 2px solid white;
+    outline: none;
+    font-size: 20px;
+}
+
+#button{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(255, 219, 15);
+    color: black;
+    border-radius: 2px;
+    border: 2px solid rgb(255, 219, 15);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text ul{
+    position: relative;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.text ul i{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+}
